@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Log In
+{% endblock %}
+
+{% block main %}
+
+        <div style="font-family: Arial, sans-serif; font-size: 16px; line-height: 1.5; border: 1px solid #ccc; padding: 20px; max-width: 600px; margin: 0 auto;">
+            <p>
+            You can view your password vault, where you can check the passwords also delete or edit them.
+            </p>
+            <p>
+            You can change your master password anytime, ensuring that you keep your account safe and secure
+            </p>
+            <div style="display: flex; justify-content: center; text-align: center; margin: 20px;">
+                <a href="/add-password" style="padding: 10px 20px; background-color: blue; color: white; margin-right: 30px; border-radius: 5px; text-decoration: none;">Add Password</a>
+                <a href="/passwords-vault" style="padding: 10px 20px; background-color: green; color: white; margin-left: 30px; border-radius: 5px; text-decoration: none;">Passwords Vault</a>
+            </div>
+        </div>
+
+{% endblock %}
