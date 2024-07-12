@@ -63,8 +63,3 @@ Speaking of the master password, the user can change it anytime they want. When 
 
 Lastly, I chose to use Flask and SQLite to develop the application, as they are both lightweight and easy to use, making it easier for others to understand and modify the code if they choose to.
 
-Thank you for checking out my final project for CS50. If you have any questions or feedback, feel free to reach out to me.
-
-## Demo
-
-You try the live demo [here](https://anihub-django.vercel.app/).
